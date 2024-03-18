@@ -74,7 +74,7 @@
                 src="/hamburger.png"
               />
               <button
-                class="hover:bg-khaki focus:bg-goldenrod duration-300 hover:shadow cursor-pointer [border:none] pt-[17px] px-[17px] pb-[18px] bg-gray-200 w-[227px] rounded-6xs flex flex-row items-center justify-center box-border whitespace-nowrap z-[2]"
+                class="hover:bg-khaki focus:bg-goldenrod duration-300 cursor-pointer [border:none] pt-[17px] px-[17px] pb-[18px] bg-gray-200 w-[227px] rounded-6xs flex flex-row items-center justify-center box-border whitespace-nowrap z-[2]"
               >
                 <div
                   class="relative text-lg leading-[160%] capitalize font-medium font-nunito text-white text-left duration-300"
@@ -1609,15 +1609,10 @@
                           ></div>
                           <input
                             class="w-[215px] [border:none] [outline:none] font-medium font-nunito text-lg bg-[transparent] h-[29px] relative leading-[160%] capitalize text-dimgray-600 text-left inline-block z-[1]"
-                            placeholder="your company name here"
+                            placeholder="Your Company Name Here"
                             type="text"
                           />
                         </div>
-                      </div>
-                      <div
-                        class="relative leading-[160%] capitalize font-semibold mq450:text-base mq450:leading-[26px]"
-                      >
-                        Message *
                       </div>
                     </div>
                     <div
@@ -1653,27 +1648,31 @@
                           Subject *
                         </div>
                         <div
-                          class="self-stretch rounded-6xs bg-white box-border flex flex-row items-center justify-start pt-[17px] px-[31px] pb-[18px] whitespace-nowrap max-w-full text-lg text-dimgray-600 border-[1px] border-solid border-gainsboro-200"
+                          class="self-stretch rounded-6xs bg-white box-border flex flex-row items-center justify-start pt-[17px] px-[31px] pb-[18px] max-w-full border-[1px] border-solid border-gainsboro-200"
                         >
                           <div
                             class="h-16 w-[475px] relative rounded-6xs bg-white box-border hidden max-w-full border-[1px] border-solid border-gainsboro-200"
                           ></div>
-                          <div
-                            class="relative leading-[160%] capitalize font-medium z-[1]"
-                          >
-                            How can we Help
-                          </div>
+                          <input
+                            class="w-[199px] [border:none] [outline:none] font-medium font-nunito text-lg bg-[transparent] h-[29px] relative leading-[160%] capitalize text-dimgray-600 text-left inline-block whitespace-nowrap z-[1]"
+                            placeholder="how can we help?"
+                            type="text"
+                          />
                         </div>
                       </div>
                     </div>
                   </div>
+                  <div
+                    class="relative leading-[160%] capitalize font-semibold mq450:text-base mq450:leading-[26px]"
+                  >
+                    Message *
+                  </div>
                   <textarea
-                    class="bg-white h-[300px] w-auto [outline:none] self-stretch rounded-6xs box-border flex flex-row items-start justify-start p-[31px] font-nunito font-medium text-lg text-dimgray-600 border-[1px] border-solid border-gainsboro-200"
-                    placeholder="Hello there, I would like to talk about ..."
+                  class="bg-white h-[300px] w-auto [outline:none] self-stretch rounded-6xs box-border flex flex-row items-start justify-start p-[31px] font-nunito font-medium text-lg text-dimgray-600 border-[1px] border-solid border-gainsboro-200"
+                  placeholder="Hello there, I would like to talk about ..."
                     rows="{15}"
                     cols="{50}"
-                  >
-                  </textarea>
+                  ></textarea>
                 </div>
                 <button
                   class="cursor-pointer [border:none] py-4 pr-[34px] pl-[39px] bg-gray-200 rounded-6xs flex flex-row items-center justify-center whitespace-nowrap hover:bg-dimgray-400"
