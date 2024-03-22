@@ -97,7 +97,7 @@
                   class="m-0 w-[740px] mt-14 relative text-inherit leading-[110.5%] font-extrabold font-inherit inline-block shrink-0 mq450:text-23xl mq450:leading-[46px] mq850:text-37xl mq850:leading-[62px]"
                 >
                   <span>A fully integrated digital </span>
-                  <span class="text-mediumslateblue">design</span>
+                  <span id="typed" class="text-mediumslateblue"></span>
                   <br />
                   <span>agency</span>
                 </h1>
@@ -1859,5 +1859,17 @@
         </div>
       </footer>
     </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#typed", {
+        strings: ["design", "development", "marketing", "security"],
+        typeSpeed: 50,
+        backSpeed: 50,
+        loop: true,
+        startDelay: 500,
+        backDelay: 1000,
+      });
+    </script>
   </body>
 </html>
